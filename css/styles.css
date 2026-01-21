@@ -1,3 +1,6 @@
+.whole-page {
+  width: 1158px;
+}
 .button {
   font-weight: 500;
 
@@ -5,7 +8,12 @@
   letter-spacing: 0.04em;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   background: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  transform: translateY(48px);
 }
 .button:hover,
 .button:focus {
@@ -104,9 +112,17 @@ ul {
 }
 .page-footer {
   background-color: #2e2f42;
+  height: 312px;
+  padding: 100px 1020px 100px 156px;
 }
 .footer-text {
   color: #f4f4fd;
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-top: 16px;
 }
 .footer-logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -127,4 +143,53 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+.footer-box {
+  width: 264px;
+  height: 112px;
+}
+.footer-logo {
+  height: 24px;
+}
+.whole-page {
+  width: 1158px;
+}
+.page-header {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 72px;
+  align-items: center;
+  margin: 0 auto;
+}
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.mail-link {
+  margin-left: 332px;
+}
+.tel-link {
+  margin-left: 40px;
+}
+.header-logo {
+  margin: 156px;
+  margin-right: 76px;
+}
+.slogan-section {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-title {
+  width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
