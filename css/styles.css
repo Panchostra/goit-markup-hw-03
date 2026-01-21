@@ -81,7 +81,10 @@ p {
   color: #404bbf;
 }
 .team-section {
+  display: flex;
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 .card-item {
   background-color: #ffffff;
@@ -219,4 +222,32 @@ ul {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.card-item {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.tom.card-item {
+  height: 404px;
+}
+.team-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
