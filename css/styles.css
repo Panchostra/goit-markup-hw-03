@@ -254,3 +254,7 @@ ul {
 .section {
   padding: 120px 0;
 }
+.portfolio.section {
+  width: 1440px;
+  height: 1240px;
+}
