@@ -193,3 +193,30 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.item-section {
+  display: flex;
+  width: 1440px;
+  height: 344px;
+  justify-content: center;
+  align-items: center;
+}
+.item-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.item-box {
+  width: 264px;
+}
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
