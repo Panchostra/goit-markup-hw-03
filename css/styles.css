@@ -1,0 +1,130 @@
+.button {
+  font-weight: 500;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #3b46c4;
+}
+.button:hover {
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+.card-name:hover,
+.card-name:focus {
+  color: #404bbf;
+}
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #434455;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+.link {
+  font-weight: 500;
+  line-height: 150%;
+  color: #2e2f42;
+}
+p {
+  line-height: 150%;
+}
+.card-job-title:hover,
+.card-job-title:focus {
+  color: #404bbf;
+}
+.slogan-section {
+  background-color: #2e2f42;
+}
+.mail-link,
+.tel-link {
+  color: #434455;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #404bbf;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.card-item {
+  background-color: #ffffff;
+}
+.header-logo-web,
+.footer-logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+.footer-logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
