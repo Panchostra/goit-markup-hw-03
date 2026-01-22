@@ -115,6 +115,7 @@ ul {
 .page-footer {
   background-color: #2e2f42;
   height: 312px;
+  width: 1440px;
   padding: 100px 1020px 100px 156px;
 }
 .footer-text {
@@ -253,8 +254,36 @@ ul {
 }
 .section {
   padding: 120px 0;
+  margin: 0;
 }
 .portfolio.section {
   width: 1440px;
   height: 1240px;
+  background-color: #FFFFFF;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-item {
+  height: 420px;
+  width: 360px;
+}
+.portfolio-image {
+  height: 300px;
+  width: 360px;
+}
+.portfolio-text-box {
+  height: 120px;
+  width: 360px;
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
 }
