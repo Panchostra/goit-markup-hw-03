@@ -71,7 +71,7 @@ p {
   color: #404bbf;
 }
 .slogan.section {
-  padding: 120px 16px;
+  padding: 188px 16px auto 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,8 +121,7 @@ ul {
 }
 .page-footer {
   background-color: #2e2f42;
-  height: 312px;
-  padding: 100px 1011px 100px 147px;
+  padding: 100px 0;
 }
 .footer-text {
   color: #f4f4fd;
@@ -256,7 +255,13 @@ ul {
     0 1px 1px rgba(46, 47, 66, 0.16),
     0 1px 6px rgba(46, 47, 66, 0.08);
 }
-
+.card-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 32px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -292,9 +297,11 @@ ul {
   width: auto;
 }
 .portfolio-text-box {
-  width: 360px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
