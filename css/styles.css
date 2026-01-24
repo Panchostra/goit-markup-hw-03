@@ -77,6 +77,8 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .mail-link,
@@ -89,12 +91,8 @@ p {
 }
 .team.section {
   background-color: #f4f4fd;
+}
 
-  height: 732px;
-}
-.card-item {
-  background-color: #ffffff;
-}
 .header-logo-web,
 .footer-logo-web {
   font-family: 'Raleway', sans-serif;
@@ -194,13 +192,7 @@ ul {
 .header-logo {
   margin: 0px;
 }
-.slogan.section {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .page-title {
   width: 496px;
   font-weight: 700;
@@ -211,7 +203,6 @@ ul {
 }
 .item.section {
   display: flex;
-  height: 344px;
   justify-content: center;
   align-items: center;
 }
@@ -279,7 +270,6 @@ ul {
   margin: 0;
 }
 .portfolio.section {
-  height: 1240px;
   background-color: #ffffff;
 }
 
@@ -296,7 +286,6 @@ ul {
   width: 360px;
 }
 .portfolio-image {
-  height: auto;
   object-fit: cover;
   width: auto;
 }
