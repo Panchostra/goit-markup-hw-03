@@ -1,5 +1,5 @@
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
 }
 .button {
@@ -122,6 +122,7 @@ ul {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  padding-left: 156px;
 }
 .footer-text {
   color: #f4f4fd;
@@ -169,6 +170,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .page-nav {
   display: flex;
@@ -185,6 +188,7 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  font-style: normal;
 }
 
 .header-logo {
